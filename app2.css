@@ -1,0 +1,47 @@
+.stApp{
+    background-size: 30%;
+}
+
+.e1nzilvr0, strong{
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0 #414FEA;
+}
+
+.e1f1d6gn2 p, .e1f1d6gn2 ul{
+    color: #FFFFFF;
+    text-shadow: #000000 2px 3px 2px;
+}
+
+.stAlert p{
+    text-shadow: none;
+}
+
+.st-at{
+    background-color: rgba(61, 157, 243, 0.6);
+}
+
+.css-2n0u5n a{
+    color: rgb(195 237 75);
+}
+
+.eczjsme3 p{
+    color: rgb(163, 168, 184);
+    text-shadow: none;
+}
+
+.stDataFrame.css-tvhsbf.e1w7nams0{
+    -webkit-box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+    -moz-box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+    box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+}
+
+.marks{
+    border-radius: 2.5%;
+    -webkit-box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+    -moz-box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+    box-shadow: 10px 10px 22px -7px rgba(65,79,234,0.61);
+}
+
+code{
+    color: white;
+}
