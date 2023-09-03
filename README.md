@@ -1,3 +1,4 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bioactivityprediction-mtor.streamlit.app)
 # BioActivityPrediction-mTOR (Drug Discovery)
 Dysregulation of the mTOR pathway has been linked to the development and progression of cancer. This app allows you to predict the bioactivity of compounds towards inhibting the mTOR enzyme to find potential leads in Drug Discovery.
 
