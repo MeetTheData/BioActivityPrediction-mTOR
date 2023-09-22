@@ -201,6 +201,7 @@ else:
 st.markdown("""
 **Credits**
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
-- Project inspired from DataProfessor.
+- Read about [Lipinski Descriptors](https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/lipinskis-rule-of-five)
+- Project inspired from [DataProfessor](https://www.youtube.com/@DataProfessor)
 ---
 """)
