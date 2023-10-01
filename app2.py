@@ -135,9 +135,8 @@ if 'df' not in st.session_state and 'sample_clicked' not in st.session_state:
     st.session_state.sample_clicked = False
     st.session_state.count_s = 0
     
-st.sidebar.header('Sample Data')
-st.sidebar.caption('Click button to generate SMILES input data.')
-sample = st.sidebar.button('Sample', on_click=refresh)
+st.subheader('Sample Data')
+sample = st.button('Sample', on_click=refresh)
 
 if sample or st.session_state.sample_clicked:
     st.session_state.count_s += 1
@@ -146,9 +145,9 @@ if sample or st.session_state.sample_clicked:
     Canonical smiles is a standard notation for representing the molecular structure of a chemical compound using a short and human-readable string of characters, making it easier to compare and analyze chemical structures.
     """)
     st.write(st.session_state.df)
-    st.sidebar.header('Predict Data')
+    st.subheader('Predict Data')
     st.sidebar.caption('Click button to predict bioactivity.')
-    predict = st.sidebar.button('Predict', on_click=callback)
+    predict = st.button('Predict', on_click=callback)
 
     if predict:
         st.session_state.sample_clicked = False
