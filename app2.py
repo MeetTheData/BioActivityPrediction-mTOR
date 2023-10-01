@@ -146,7 +146,7 @@ if sample or st.session_state.sample_clicked:
     """)
     st.write(st.session_state.df)
     st.subheader('Predict Data')
-    st.sidebar.caption('Click button to predict bioactivity.')
+    st.caption('Click button to predict bioactivity.')
     predict = st.button('Predict', on_click=callback)
 
     if predict:
