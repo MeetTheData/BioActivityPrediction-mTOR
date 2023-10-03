@@ -194,7 +194,7 @@ if sample or st.session_state.sample_clicked:
         
 
 else:
-    st.info('Click Sample button in the sidebar to start!')
+    st.info('Click Sample button to start!')
         
 
 st.markdown("""
